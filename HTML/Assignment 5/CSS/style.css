@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header {
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+}
+
+p {
+    font-weight: bold;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding-right: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 7px;
+    font-size: large;
+    display: inline-block;
+    margin: 0 5px;
+}
