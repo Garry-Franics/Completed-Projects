@@ -1,4 +1,4 @@
-# I DID NOT MAKE ANYTHING IN THIS FOLDER! This site was used only to have something to deploy in a docker image. I will try to find and link the original.
+# I DID NOT MAKE ANYTHING IN THIS FOLDER! This site was used only to have something to deploy in a docker image. The Angular application was created by Erik Jenkins & Ryan Nicolai.
 
 # WsuHwNg
 
