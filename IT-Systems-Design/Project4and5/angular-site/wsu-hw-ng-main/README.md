@@ -1,3 +1,5 @@
+#I DID NOT MAKE ANYTHING IN THIS FOLDER! This site was used only to have something to deploy in a docker image. I will try to find the original.
+
 # WsuHwNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
