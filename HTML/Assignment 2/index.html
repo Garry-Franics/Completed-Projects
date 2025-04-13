@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+    Your Name: Garry Francis
+    Date: 9/25/2023
+    Assignment 2 
+    file: index.html    
+-->
+<!-- Important Notes [Please Read]:
+        In this assignment, you are presented with the challenge of formating an HTML page while adhering to a specific constraint: 
+        You are not allowed to change the structure of the elements within the <body> tag of the page, i.e. adding elements or classes or ids.
+        It is essential to preserve the existing structure of the elements within the <body> exactly as they are.
+        Failure to comply with this constraint will result in the nullification of points for your assignment. 
+        Rubrics will not be applied, and you will receive a score of zero for the assignment.
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="CSS/main.css">        
+    </head>
+    <body>
+        <section>
+            <header>
+                <img src="Images/Logo.png" alt="Site Logo">
+                <div class="spacer"></div>
+                <nav>
+                    <ul>
+                        <!-- javascript:void(0) when link clicked doesnot change the current page state-->
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="javascript:void(0)">Bee Culture</a></li>
+                        <li><a href="javascript:void(0)">Beekeeping</a></li>
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="spacer"></div><!-- spacer class no content-->
+            </header>
+            <main>
+                <article>
+                    <h3>
+                        <img src="Images/beeColony.png" class="left" alt="Bees Colony"> Honey Bees
+                    </h3>
+                    <p>
+                        Honey bees, a remarkable species of insects known for their vital role in pollination and honey production, undergo a fascinating journey from birth to adulthood. The life cycle of a honey bee begins when the queen lays an egg in a honeycomb cell. The egg hatches into a tiny larva, which is meticulously cared for by worker bees. Worker bees feed the larva with a mixture of pollen and nectar, known as "bee bread," which provides essential nutrients for their growth. As the larva continues to feed and grow, it undergoes several molting stages, shedding its skin and developing into a pupa. During this pupal stage, profound changes occur, transforming the pupa into an adult bee. Finally, after a period of development, the fully formed adult bee chews its way out of the wax cell, emerging as a mature bee ready to take on various roles within the hive, such as foraging for nectar and pollen or tending to the queen. 
+                    </p>
+                    <div class="moveFromAboveParagraph"><!-- margin class --></div>            
+                    <h3>
+                        <img class="right" src="Images/beeQueen.png"  alt="Colony Bees Queen"> Queen Bee
+                    </h3>
+                    <p>
+                        Within a honey bee hive, the queen bee holds a position of utmost importance. She is the largest bee in the colony, measuring about one and a half times the size of worker bees. The queen's primary function is to lay eggs, ensuring the continued survival of the hive. In a single day, a productive queen can lay hundreds or even thousands of eggs. This exceptional egg-laying capacity is vital for maintaining the hive's population and stability. Additionally, the queen produces pheromones that regulate the behavior and development of the other bees in the colony, helping to maintain harmony and order within the hive. Her role as the hive's central reproductive organ is critical, making her a true matriarch in the intricate social structure of the honey bee colony.
+                    </p>
+                    <div class="moveFromAboveParagraph"><!-- margin class --></div>
+                    <h3> More Resources on Bees</h3>
+                    <p>For more detailed information on honey bee life cycles and the role of the queen bee, you can refer to reliable sources like:</p>
+                    <ul>
+                        <li>The Beekeeping and Honey Bee Education and Outreach. Article on the University of Californiawebsite website <a href="https://ucanr.edu/sites/sandiegobees/"> (https://ucanr.edu/sites/sandiegobees)</a> </li>
+                        <li>The "Queen Bee" section. Article on Wikipedia website <a href="https://en.wikipedia.org/wiki/Queen_bee" target="_blank">(https://en.wikipedia.org/wiki/Queen_bee)</a></li>
+                    </ul> 
+                </article>
+            </main>
+            <div class="moveFromAboveParagraph"><!-- margin class--></div>
+            <aside>                
+                <h3>About this course</h3>
+                <p>
+                    This site CSS dessigners, currently enrolled in the Computer Science 2800 course at Wright State University, where they are diving head first into the exciting world of web development. In this course, they are mastering the fundamentals of HTML and CSS, the building blocks of the digital landscape.
+                </p>
+                <p>
+                    Stay tuned to witness the evolution of this budding web developer as they embark on their journey in CS 2800. 
+                    <br /> Need to know more about the great Wright State University, click on images below:
+                </p>
+                <div> <!-- Linkable images section, study the structure -->
+                    <a href="https://www.wright.edu/degrees-and-programs" target="_blank"><img src="Images/degreeAndPrograms_225_125.png" alt="WSU Degree & Programs"></a>
+                    <a href="https://www.wright.edu/admissions" target="_blank">          <img src="Images/admissions_225_125.png" alt="WSU Admissions"></a>
+                    <a href="https://www.wright.edu/university-research" target="_blank"> <img src="Images/research_225_125.png" alt="WSU Research"></a>
+                    <a href="https://www.wright.edu/campus-life" target="_blank">         <img src="Images/campusLife_225_125.png" alt="WSU Campus Life"></a>
+                </div>
+            </aside>
+            <div class="spacer moveFromAboveParagraph"></div> <!-- spacer class and margin class -->
+            <footer>
+                    <p>&copy;&nbsp;Garry Francis 2021 -  <span id="currentYear"></span></p>
+            </footer>          
+        </section>   
+        <script>
+            // Get the current year
+            var currentYear = new Date().getFullYear();      
+            // Update the content of the "currentYear" span
+            document.getElementById("currentYear").textContent = currentYear;
+        </script>
+    </body>
+</html>
