@@ -117,7 +117,7 @@ Finally, run the command `sudo systemctl restart apache2` to restart the service
 
 ## Proof this works
 
-Okay so did any of this actually do anything? Well to check just try connecting to the proxy with HTTP. type http://3.227.159.171/ into your search engine and BEHOLD, its there. Notice the numbers in parts of each page showing what private instance it is currently being hosted on, and that this number changes in a cycle of 1,2,3. This shows that the roundrobin LB is working.
+Okay so did any of this actually do anything? Well to check just try connecting to the proxy with HTTP. type http://3.227.159.171/ (not anymore I dont have this AWS hosted anymore.) into your search engine and BEHOLD, its there. Notice the numbers in parts of each page showing what private instance it is currently being hosted on, and that this number changes in a cycle of 1,2,3. This shows that the roundrobin LB is working.
 
 Picture of the Home screen hosted on server 1:
 
