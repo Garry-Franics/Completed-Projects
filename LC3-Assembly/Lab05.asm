@@ -60,7 +60,7 @@ PUTS
 GETC
 OUT
 LDR	R1,	R4,	#1 ; load -48 into R1 for subtraction
-ADD R0, R0, R1 ; the thing where we subtract 48 from the input to make it mathable (idr what the real term is)
+ADD R0, R0, R1 ; Convert from ASCII
 STR R0, R5, #-1 ; Store the input on the stack
 
 LEA R0, NEWLINE
