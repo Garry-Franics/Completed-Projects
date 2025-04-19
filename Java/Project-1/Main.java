@@ -61,15 +61,15 @@ class Main {
 //section for identifying suits and terminating invalid suits    
     
     String suit1 = hand.substring(suitup1.length(),gap);
-    if(!suit1.contentEquals("C") && !suit1.contentEquals("D") && !suit1.contentEquals("H")        && !suit1.contentEquals("S"))
+    if(!suit1.contentEquals("C") && !suit1.contentEquals("D") && !suit1.contentEquals("H") && !suit1.contentEquals("S"))
       {System.out.print(card1 + " has an invalid suit. Exiting...");
       System.exit(0);}
     String suit2 = hand.substring(suitup2.length(),gapp);
-    if(!suit2.contentEquals("C") && !suit2.contentEquals("D") && !suit2.contentEquals("H")        && !suit2.contentEquals("S"))
+    if(!suit2.contentEquals("C") && !suit2.contentEquals("D") && !suit2.contentEquals("H") && !suit2.contentEquals("S"))
       {System.out.print(card2 + " has an invalid suit. Exiting...");
       System.exit(0);}
     String suit3 = hand.substring(suitup3.length(),hand.length());
-    if(!suit3.contentEquals("C") && !suit3.contentEquals("D") && !suit3.contentEquals("H")        && !suit3.contentEquals("S"))
+    if(!suit3.contentEquals("C") && !suit3.contentEquals("D") && !suit3.contentEquals("H") && !suit3.contentEquals("S"))
       {System.out.print(card3 + " has an invalid suit. Exiting...");
       System.exit(0);}
 
