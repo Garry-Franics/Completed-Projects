@@ -13,7 +13,7 @@ This project will to show you how to host a website using apache2 and how to con
 - A proxy instance that takes traffic and redirects it to the private instances
 - Three private instances for hosting web content
 
-![Load Balancer Diagram](Images/lbdiagram.jpg)
+![Load Balancer Diagram](Images/lbdiagram.jpeg)
 
 The load balancer takes in traffic from the proxy server, and then allocates the traffic to its connected servers in accordance with the load balancing algorithim. Roundrobin, for example, cycles through the avalable servers in order before returning to the start.
 
