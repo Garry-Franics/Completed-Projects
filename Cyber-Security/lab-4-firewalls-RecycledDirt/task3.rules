@@ -1,9 +1,0 @@
-*filter
-:INPUT DROP
-:FORWARD ACCEPT
-:OUTPUT ACCEPT
-
-# Allow incoming SSH connections on port 22
--A INPUT -p tcp --dport 22 -j ACCEPT
-
-COMMIT

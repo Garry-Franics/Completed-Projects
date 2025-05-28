@@ -1,9 +1,0 @@
-*filter
-:INPUT ACCEPT
-:FORWARD ACCEPT
-:OUTPUT ACCEPT
-
-# Reject all incoming connections to port 1234
--A INPUT -p tcp --dport 1234 -j REJECT
-
-COMMIT
